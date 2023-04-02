@@ -161,7 +161,7 @@ public class LogManager {
                         logGrade = "logcat My App:D *:e *:w *:i *:d -v brief &";
                         break;
                     case 1: //d
-                        logGrade = "logcat My App:D *:e *:w *:i *:d -v brief &";
+                        logGrade = "logcat My App:D *:e *:w *:i *:d brief &";
                         break;
                     case 2: //i
                         logGrade = "logcat My App:D *:e *:w *:i -v brief &";
