@@ -158,10 +158,10 @@ public class LogManager {
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
                 switch (position){
                     case 0: //v
-                        logGrade = "logcat My App:D *:e *:w *:i *:d -v brief &";
+                        logGrade = "logcat My App:D *:e *:w *:i *:d *:v -v brief &";
                         break;
                     case 1: //d
-                        logGrade = "logcat My App:D *:e *:w *:i *:d brief &";
+                        logGrade = "logcat My App:D *:e *:w *:i *:d -v brief &";
                         break;
                     case 2: //i
                         logGrade = "logcat My App:D *:e *:w *:i -v brief &";
