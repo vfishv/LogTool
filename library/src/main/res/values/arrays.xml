@@ -4,7 +4,7 @@
         <item>Verbose</item>
         <item>Debug</item>
         <item>Info</item>
-        <item>Warm</item>
+        <item>Warn</item>
         <item>Error</item>
     </string-array>
 </resources>

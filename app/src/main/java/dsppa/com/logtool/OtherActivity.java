@@ -19,7 +19,7 @@ public class OtherActivity extends AppCompatActivity {
         Log.i(TAG,"i info");
         Log.d(TAG,"debug info");
         Log.e(TAG,"error info");
-        Log.w(TAG,"a=warm info");
+        Log.w(TAG,"a=warn info");
 
         Button button = findViewById(R.id.button);
         button.setOnClickListener(new View.OnClickListener() {
